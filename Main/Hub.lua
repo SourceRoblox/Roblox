@@ -193,7 +193,7 @@ local UICorner_57 = Instance.new("UICorner")
 --Properties:
 
 DreckHub.Name = "DreckHub"
-DreckHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+DreckHub.Parent = game.CoreGui
 
 Abas.Name = "Abas"
 Abas.Parent = DreckHub
