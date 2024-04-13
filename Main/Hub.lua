@@ -1,8 +1,3 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
 local DreckHub = Instance.new("ScreenGui")
 local Abas = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -193,7 +188,7 @@ local UICorner_57 = Instance.new("UICorner")
 --Properties:
 
 DreckHub.Name = "DreckHub"
-DreckHub.Parent = game.CoreGui
+DreckHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
 Abas.Name = "Abas"
 Abas.Parent = DreckHub
@@ -1800,7 +1795,7 @@ UICorner_57.Parent = Logo
 
 -- Scripts:
 
-local function LBBEZHY_fake_script() -- DreckHub.Config 
+local function NBPJ_fake_script() -- DreckHub.Config 
 	local script = Instance.new('LocalScript', DreckHub)
 
 	local Butao_abas_List = script.Parent.Abas.AbasList
@@ -1864,18 +1859,6 @@ local function LBBEZHY_fake_script() -- DreckHub.Config
 		Open.Parent.Parent.Abas.Draggable = not Open.Parent.Parent.Abas.Draggable
 	end)
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	local function definirClockTime()
 		local novoTempo = tonumber(Butto_textBoxHorario.Text) -- Converter o texto para um número
 		if novoTempo then
@@ -1915,6 +1898,18 @@ local function LBBEZHY_fake_script() -- DreckHub.Config
 	local Button_GerarLOOPPOS = Open.Parent.Categoria.Abas_Config.Fundo_Pos.AutoTeleport.Null.UI_PNG
 	
 	local TextBoxMinhaPosicao = Open.Parent.Categoria.Abas_Config.Fundo_Pos.MinhaPosicao.SuaPosicaoXYZ.Fundo.TextBox
+	
+	function MinhaPosicaoloopTeste()
+		while true do
+			TextBoxMinhaPosicao.Text = tostring(game.Players.LocalPlayer.Character.HumanoidRootPart.Position)
+			wait(1)
+		end
+	end
+	
+	TextBoxMinhaPosicao.Parent.Parent.Parent.Null.UI_PNG.MouseButton1Down:Connect(function()
+		print("teste")
+		MinhaPosicaoloopTeste()
+	end)
 	
 	
 	local Gerar_PosicaoSalva1 = nil
@@ -2131,38 +2126,29 @@ local function LBBEZHY_fake_script() -- DreckHub.Config
 		Selections_Jogador.Selection_Modificacao.Null.BackgroundColor3 = (MENU_Jogador.Modificacao_jogador_2.Visible and Color3.fromRGB(85, 255, 127)) or Color3.fromRGB(20, 20, 20)
 		Selections_Jogador.Selection_protecao.Null.BackgroundColor3 = (MENU_Jogador.Protecao_jogador_2.Visible and Color3.fromRGB(85, 255, 127)) or Color3.fromRGB(20, 20, 20)
 		Selections_Jogador.Selection_exploit.Null.BackgroundColor3 = (MENU_Jogador.Exploit_jogador_2.Visible and Color3.fromRGB(85, 255, 127)) or Color3.fromRGB(20, 20, 20)
-		Selections_Veiculos.Seletion_Teletransporte.Null.BackgroundColor3 = (MENU_Veiculo.Teletransporte_jogador_2.Visible and Color3.fromRGB(85, 255, 127)) or Color3.fromRGB(20, 20, 20)
+		
 	end
-	
-	Selections_Veiculos.Seletion_Teletransporte.MouseButton1Down:Connect(function()
-		MENU_Veiculo.Teletransporte_jogador_2.Visible = true
-	
-	end)
 	
 	Selections_Jogador.Selection_Modificacao.MouseButton1Down:Connect(function()
 		MENU_Jogador.Modificacao_jogador_2.Visible = true
-		
-		
 		MENU_Jogador.Protecao_jogador_2.Visible = false
 		MENU_Jogador.Exploit_jogador_2.Visible = false
+		FuncaoCoresNullSelections()
 		
 	end)
 	
 	Selections_Jogador.Selection_protecao.MouseButton1Down:Connect(function()
 		MENU_Jogador.Modificacao_jogador_2.Visible = false
-	
-	
 		MENU_Jogador.Protecao_jogador_2.Visible = true
 		MENU_Jogador.Exploit_jogador_2.Visible = false
+		FuncaoCoresNullSelections()
 	end)
 	
 	Selections_Jogador.Selection_exploit.MouseButton1Down:Connect(function()
 		MENU_Jogador.Modificacao_jogador_2.Visible = false
-	
-	
 		MENU_Jogador.Protecao_jogador_2.Visible = false
 		MENU_Jogador.Exploit_jogador_2.Visible = true
-		
+		FuncaoCoresNullSelections()
 	end)
 	
 	Butao_abas_List.A.MouseButton1Down:Connect(function()
@@ -2246,17 +2232,9 @@ local function LBBEZHY_fake_script() -- DreckHub.Config
 	
 	
 	
-	
-	
-	while wait(0.2) do
-		
-		FuncaoCoresNullSelections()
-		TextBoxMinhaPosicao.Text = tostring(game.Players.LocalPlayer.Character.HumanoidRootPart.Position)
-	end
-	
+	FuncaoCoresNullSelections()
 	
 	
 	
 end
-coroutine.wrap(LBBEZHY_fake_script)()
--- DreckHub.GodMod is disabled.
+coroutine.wrap(NBPJ_fake_script)()
