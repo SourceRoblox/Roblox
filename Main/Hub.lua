@@ -1,3 +1,8 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
 local DreckHub = Instance.new("ScreenGui")
 local Abas = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -71,124 +76,122 @@ local UICorner_20 = Instance.new("UICorner")
 local UI_PNG = Instance.new("ImageButton")
 local UIGradient = Instance.new("UIGradient")
 local Titulo = Instance.new("TextLabel")
-local Button = Instance.new("TextButton")
-local UICorner_21 = Instance.new("UICorner")
 local TextBox = Instance.new("TextBox")
-local UICorner_22 = Instance.new("UICorner")
+local UICorner_21 = Instance.new("UICorner")
 local Protecao_jogador_2 = Instance.new("ScrollingFrame")
 local UIListLayout_2 = Instance.new("UIListLayout")
 local toggle_2 = Instance.new("Frame")
-local UICorner_23 = Instance.new("UICorner")
+local UICorner_22 = Instance.new("UICorner")
 local Null_6 = Instance.new("Frame")
-local UICorner_24 = Instance.new("UICorner")
+local UICorner_23 = Instance.new("UICorner")
 local UI_PNG_2 = Instance.new("ImageButton")
 local UIGradient_2 = Instance.new("UIGradient")
 local Titulo_2 = Instance.new("TextLabel")
 local Exploit_jogador_2 = Instance.new("ScrollingFrame")
 local UIListLayout_3 = Instance.new("UIListLayout")
-local Button_2 = Instance.new("TextButton")
-local UICorner_25 = Instance.new("UICorner")
+local Button = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
 local MenuVeiculo = Instance.new("Frame")
-local UICorner_26 = Instance.new("UICorner")
+local UICorner_25 = Instance.new("UICorner")
 local Teletransporte_jogador_2 = Instance.new("ScrollingFrame")
 local UIListLayout_4 = Instance.new("UIListLayout")
-local Button_3 = Instance.new("TextButton")
-local UICorner_27 = Instance.new("UICorner")
+local Button_2 = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
 local Categoria = Instance.new("Frame")
-local UICorner_28 = Instance.new("UICorner")
+local UICorner_27 = Instance.new("UICorner")
 local Abas_Config = Instance.new("Frame")
 local TextButton = Instance.new("TextButton")
 local Fundo_Pos = Instance.new("Frame")
 local SalvarPosicao = Instance.new("TextButton")
-local UICorner_29 = Instance.new("UICorner")
+local UICorner_28 = Instance.new("UICorner")
 local Titulo_3 = Instance.new("TextLabel")
 local PosicoesList = Instance.new("Frame")
 local Null_7 = Instance.new("Frame")
-local UICorner_30 = Instance.new("UICorner")
+local UICorner_29 = Instance.new("UICorner")
 local UI_PNG_3 = Instance.new("ImageButton")
 local UIGradient_3 = Instance.new("UIGradient")
 local Titulo_4 = Instance.new("TextLabel")
-local UICorner_31 = Instance.new("UICorner")
+local UICorner_30 = Instance.new("UICorner")
 local List = Instance.new("TextLabel")
-local UICorner_32 = Instance.new("UICorner")
+local UICorner_31 = Instance.new("UICorner")
 local Fundo = Instance.new("Frame")
-local UICorner_33 = Instance.new("UICorner")
+local UICorner_32 = Instance.new("UICorner")
 local FundoRolagem = Instance.new("ScrollingFrame")
 local UIListLayout_5 = Instance.new("UIListLayout")
 local txt_9 = Instance.new("TextLabel")
-local UICorner_34 = Instance.new("UICorner")
+local UICorner_33 = Instance.new("UICorner")
 local MinhaPosicao = Instance.new("Frame")
 local Null_8 = Instance.new("Frame")
-local UICorner_35 = Instance.new("UICorner")
+local UICorner_34 = Instance.new("UICorner")
 local UI_PNG_4 = Instance.new("ImageButton")
 local UIGradient_4 = Instance.new("UIGradient")
 local Titulo_5 = Instance.new("TextLabel")
-local UICorner_36 = Instance.new("UICorner")
+local UICorner_35 = Instance.new("UICorner")
 local SuaPosicaoXYZ = Instance.new("TextLabel")
-local UICorner_37 = Instance.new("UICorner")
+local UICorner_36 = Instance.new("UICorner")
 local Fundo_2 = Instance.new("Frame")
-local UICorner_38 = Instance.new("UICorner")
+local UICorner_37 = Instance.new("UICorner")
 local TextBox_2 = Instance.new("TextBox")
 local AutoTeleport = Instance.new("Frame")
 local Null_9 = Instance.new("Frame")
-local UICorner_39 = Instance.new("UICorner")
+local UICorner_38 = Instance.new("UICorner")
 local UI_PNG_5 = Instance.new("ImageButton")
 local UIGradient_5 = Instance.new("UIGradient")
 local Titulo_6 = Instance.new("TextLabel")
-local UICorner_40 = Instance.new("UICorner")
+local UICorner_39 = Instance.new("UICorner")
 local DeleyLoopAUTOTELEPORT = Instance.new("TextBox")
-local UICorner_41 = Instance.new("UICorner")
+local UICorner_40 = Instance.new("UICorner")
 local GerarPos2 = Instance.new("TextButton")
-local UICorner_42 = Instance.new("UICorner")
+local UICorner_41 = Instance.new("UICorner")
 local Titulo_7 = Instance.new("TextLabel")
 local GerarPos1 = Instance.new("TextButton")
-local UICorner_43 = Instance.new("UICorner")
+local UICorner_42 = Instance.new("UICorner")
 local Titulo_8 = Instance.new("TextLabel")
 local Linha_2 = Instance.new("Frame")
-local UICorner_44 = Instance.new("UICorner")
+local UICorner_43 = Instance.new("UICorner")
 local Abas_ConfigMenu = Instance.new("Frame")
 local TextButton_2 = Instance.new("TextButton")
 local Fundo_Menu = Instance.new("Frame")
 local DeletarScripter = Instance.new("TextButton")
-local UICorner_45 = Instance.new("UICorner")
+local UICorner_44 = Instance.new("UICorner")
 local Titulo_9 = Instance.new("TextLabel")
 local Button_MoverMenu = Instance.new("Frame")
 local Null_10 = Instance.new("Frame")
-local UICorner_46 = Instance.new("UICorner")
+local UICorner_45 = Instance.new("UICorner")
 local UI_PNG_6 = Instance.new("ImageButton")
 local UIGradient_6 = Instance.new("UIGradient")
 local Titulo_10 = Instance.new("TextLabel")
-local UICorner_47 = Instance.new("UICorner")
+local UICorner_46 = Instance.new("UICorner")
 local TextBoxHorario = Instance.new("TextBox")
-local UICorner_48 = Instance.new("UICorner")
+local UICorner_47 = Instance.new("UICorner")
 local ModoNoite = Instance.new("TextButton")
-local UICorner_49 = Instance.new("UICorner")
+local UICorner_48 = Instance.new("UICorner")
 local Titulo_11 = Instance.new("TextLabel")
 local ModoDia = Instance.new("TextButton")
-local UICorner_50 = Instance.new("UICorner")
+local UICorner_49 = Instance.new("UICorner")
 local Titulo_12 = Instance.new("TextLabel")
 local DesingMenu = Instance.new("Frame")
-local UICorner_51 = Instance.new("UICorner")
+local UICorner_50 = Instance.new("UICorner")
 local DreckHub_2 = Instance.new("Frame")
-local UICorner_52 = Instance.new("UICorner")
+local UICorner_51 = Instance.new("UICorner")
 local txt_10 = Instance.new("TextLabel")
 local Versao = Instance.new("Frame")
-local UICorner_53 = Instance.new("UICorner")
+local UICorner_52 = Instance.new("UICorner")
 local txt_11 = Instance.new("TextLabel")
 local Png = Instance.new("ImageButton")
-local UICorner_54 = Instance.new("UIGradient")
+local UICorner_53 = Instance.new("UIGradient")
 local Funcao = Instance.new("Frame")
-local UICorner_55 = Instance.new("UICorner")
+local UICorner_54 = Instance.new("UICorner")
 local txt_12 = Instance.new("TextLabel")
 local Desing_Fundo = Instance.new("Frame")
-local UICorner_56 = Instance.new("UICorner")
+local UICorner_55 = Instance.new("UICorner")
 local Logo = Instance.new("TextButton")
-local UICorner_57 = Instance.new("UICorner")
+local UICorner_56 = Instance.new("UICorner")
 
 --Properties:
 
 DreckHub.Name = "DreckHub"
-DreckHub.Parent = game.CoreGui
+DreckHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
 Abas.Name = "Abas"
 Abas.Parent = DreckHub
@@ -327,7 +330,7 @@ Menu.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 Menu.BackgroundTransparency = 0.100
 Menu.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Menu.BorderSizePixel = 0
-Menu.Position = UDim2.new(-0.015062266, 0, -0.00325434469, 0)
+Menu.Position = UDim2.new(-0.0323033817, 0, -0.00325434469, 0)
 Menu.Size = UDim2.new(0, 492, 0, 318)
 
 atual.Name = "atual"
@@ -831,21 +834,6 @@ Titulo.TextSize = 14.000
 Titulo.TextWrapped = true
 Titulo.TextXAlignment = Enum.TextXAlignment.Left
 
-Button.Name = "Button"
-Button.Parent = Modificacao_jogador_2
-Button.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
-Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Button.BorderSizePixel = 0
-Button.Size = UDim2.new(0, 214, 0, 36)
-Button.Visible = false
-Button.ZIndex = 7
-Button.Font = Enum.Font.SourceSans
-Button.Text = ""
-Button.TextColor3 = Color3.fromRGB(255, 255, 255)
-Button.TextSize = 14.000
-
-UICorner_21.Parent = Button
-
 TextBox.Parent = Modificacao_jogador_2
 TextBox.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
 TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -861,8 +849,8 @@ TextBox.Text = ""
 TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextBox.TextSize = 14.000
 
-UICorner_22.CornerRadius = UDim.new(0, 888888888)
-UICorner_22.Parent = TextBox
+UICorner_21.CornerRadius = UDim.new(0, 888888888)
+UICorner_21.Parent = TextBox
 
 Protecao_jogador_2.Name = "Protecao_jogador_2"
 Protecao_jogador_2.Parent = MenuJogador
@@ -895,7 +883,7 @@ toggle_2.Size = UDim2.new(0, 214, 0, 36)
 toggle_2.Visible = false
 toggle_2.ZIndex = 7
 
-UICorner_23.Parent = toggle_2
+UICorner_22.Parent = toggle_2
 
 Null_6.Name = "Null"
 Null_6.Parent = toggle_2
@@ -906,8 +894,8 @@ Null_6.Position = UDim2.new(0.768087506, 0, 0.240281418, 0)
 Null_6.Size = UDim2.new(0, 31, 0, 18)
 Null_6.ZIndex = 10
 
-UICorner_24.CornerRadius = UDim.new(0, 5)
-UICorner_24.Parent = Null_6
+UICorner_23.CornerRadius = UDim.new(0, 5)
+UICorner_23.Parent = Null_6
 
 UI_PNG_2.Name = "UI_PNG"
 UI_PNG_2.Parent = Null_6
@@ -961,20 +949,21 @@ UIListLayout_3.HorizontalAlignment = Enum.HorizontalAlignment.Center
 UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
 UIListLayout_3.Padding = UDim.new(0, 10)
 
-Button_2.Name = "Button"
-Button_2.Parent = Exploit_jogador_2
-Button_2.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
-Button_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Button_2.BorderSizePixel = 0
-Button_2.Size = UDim2.new(0, 214, 0, 36)
-Button_2.Visible = false
-Button_2.ZIndex = 7
-Button_2.Font = Enum.Font.SourceSans
-Button_2.Text = ""
-Button_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-Button_2.TextSize = 14.000
+Button.Name = "Button"
+Button.Parent = Exploit_jogador_2
+Button.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button.BorderSizePixel = 0
+Button.Position = UDim2.new(0.203056768, 0, 0, 0)
+Button.Size = UDim2.new(0, 175, 0, 36)
+Button.Visible = false
+Button.ZIndex = 7
+Button.Font = Enum.Font.SourceSans
+Button.Text = ""
+Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button.TextSize = 14.000
 
-UICorner_25.Parent = Button_2
+UICorner_24.Parent = Button
 
 MenuVeiculo.Name = "MenuVeiculo"
 MenuVeiculo.Parent = Abas
@@ -985,7 +974,7 @@ MenuVeiculo.Position = UDim2.new(3.93739891, 0, -0.00325434469, 0)
 MenuVeiculo.Size = UDim2.new(0, 263, 0, 318)
 MenuVeiculo.Visible = false
 
-UICorner_26.Parent = MenuVeiculo
+UICorner_25.Parent = MenuVeiculo
 
 Teletransporte_jogador_2.Name = "Teletransporte_jogador_2"
 Teletransporte_jogador_2.Parent = MenuVeiculo
@@ -1007,20 +996,20 @@ UIListLayout_4.HorizontalAlignment = Enum.HorizontalAlignment.Center
 UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
 UIListLayout_4.Padding = UDim.new(0, 10)
 
-Button_3.Name = "Button"
-Button_3.Parent = Teletransporte_jogador_2
-Button_3.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
-Button_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Button_3.BorderSizePixel = 0
-Button_3.Size = UDim2.new(0, 214, 0, 36)
-Button_3.Visible = false
-Button_3.ZIndex = 7
-Button_3.Font = Enum.Font.SourceSans
-Button_3.Text = ""
-Button_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-Button_3.TextSize = 14.000
+Button_2.Name = "Button"
+Button_2.Parent = Teletransporte_jogador_2
+Button_2.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+Button_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_2.BorderSizePixel = 0
+Button_2.Size = UDim2.new(0, 214, 0, 36)
+Button_2.Visible = false
+Button_2.ZIndex = 7
+Button_2.Font = Enum.Font.SourceSans
+Button_2.Text = ""
+Button_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_2.TextSize = 14.000
 
-UICorner_27.Parent = Button_3
+UICorner_26.Parent = Button_2
 
 Categoria.Name = "Categoria"
 Categoria.Parent = Abas
@@ -1031,7 +1020,7 @@ Categoria.Position = UDim2.new(-0.015062266, 0, -0.00325434469, 0)
 Categoria.Size = UDim2.new(0, 492, 0, 318)
 Categoria.Visible = false
 
-UICorner_28.Parent = Categoria
+UICorner_27.Parent = Categoria
 
 Abas_Config.Name = "Abas_Config"
 Abas_Config.Parent = Categoria
@@ -1078,7 +1067,7 @@ SalvarPosicao.Text = ""
 SalvarPosicao.TextColor3 = Color3.fromRGB(0, 0, 0)
 SalvarPosicao.TextSize = 14.000
 
-UICorner_29.Parent = SalvarPosicao
+UICorner_28.Parent = SalvarPosicao
 
 Titulo_3.Name = "Titulo"
 Titulo_3.Parent = SalvarPosicao
@@ -1115,8 +1104,8 @@ Null_7.Position = UDim2.new(0.768087506, 0, 0.240281418, 0)
 Null_7.Size = UDim2.new(0, 31, 0, 18)
 Null_7.ZIndex = 10
 
-UICorner_30.CornerRadius = UDim.new(0, 5)
-UICorner_30.Parent = Null_7
+UICorner_29.CornerRadius = UDim.new(0, 5)
+UICorner_29.Parent = Null_7
 
 UI_PNG_3.Name = "UI_PNG"
 UI_PNG_3.Parent = Null_7
@@ -1149,7 +1138,7 @@ Titulo_4.TextSize = 14.000
 Titulo_4.TextWrapped = true
 Titulo_4.TextXAlignment = Enum.TextXAlignment.Left
 
-UICorner_31.Parent = PosicoesList
+UICorner_30.Parent = PosicoesList
 
 List.Name = "List"
 List.Parent = PosicoesList
@@ -1167,7 +1156,7 @@ List.TextScaled = true
 List.TextSize = 14.000
 List.TextWrapped = true
 
-UICorner_32.Parent = List
+UICorner_31.Parent = List
 
 Fundo.Name = "Fundo"
 Fundo.Parent = List
@@ -1178,7 +1167,7 @@ Fundo.Position = UDim2.new(-0.00178762584, 0, 1.39552546, 0)
 Fundo.Size = UDim2.new(0, 156, 0, 107)
 Fundo.ZIndex = 7
 
-UICorner_33.Parent = Fundo
+UICorner_32.Parent = Fundo
 
 FundoRolagem.Name = "FundoRolagem"
 FundoRolagem.Parent = Fundo
@@ -1212,7 +1201,7 @@ txt_9.TextScaled = true
 txt_9.TextSize = 14.000
 txt_9.TextWrapped = true
 
-UICorner_34.Parent = txt_9
+UICorner_33.Parent = txt_9
 
 MinhaPosicao.Name = "MinhaPosicao"
 MinhaPosicao.Parent = Fundo_Pos
@@ -1232,8 +1221,8 @@ Null_8.Position = UDim2.new(0.768087506, 0, 0.240281418, 0)
 Null_8.Size = UDim2.new(0, 31, 0, 18)
 Null_8.ZIndex = 10
 
-UICorner_35.CornerRadius = UDim.new(0, 5)
-UICorner_35.Parent = Null_8
+UICorner_34.CornerRadius = UDim.new(0, 5)
+UICorner_34.Parent = Null_8
 
 UI_PNG_4.Name = "UI_PNG"
 UI_PNG_4.Parent = Null_8
@@ -1266,7 +1255,7 @@ Titulo_5.TextSize = 14.000
 Titulo_5.TextWrapped = true
 Titulo_5.TextXAlignment = Enum.TextXAlignment.Left
 
-UICorner_36.Parent = MinhaPosicao
+UICorner_35.Parent = MinhaPosicao
 
 SuaPosicaoXYZ.Name = "SuaPosicaoXYZ"
 SuaPosicaoXYZ.Parent = MinhaPosicao
@@ -1284,7 +1273,7 @@ SuaPosicaoXYZ.TextScaled = true
 SuaPosicaoXYZ.TextSize = 14.000
 SuaPosicaoXYZ.TextWrapped = true
 
-UICorner_37.Parent = SuaPosicaoXYZ
+UICorner_36.Parent = SuaPosicaoXYZ
 
 Fundo_2.Name = "Fundo"
 Fundo_2.Parent = SuaPosicaoXYZ
@@ -1295,7 +1284,7 @@ Fundo_2.Position = UDim2.new(-0.00178762584, 0, 1.39552546, 0)
 Fundo_2.Size = UDim2.new(0, 156, 0, 107)
 Fundo_2.ZIndex = 7
 
-UICorner_38.Parent = Fundo_2
+UICorner_37.Parent = Fundo_2
 
 TextBox_2.Parent = Fundo_2
 TextBox_2.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
@@ -1331,8 +1320,8 @@ Null_9.Position = UDim2.new(0.768087506, 0, 0.240281418, 0)
 Null_9.Size = UDim2.new(0, 31, 0, 18)
 Null_9.ZIndex = 10
 
-UICorner_39.CornerRadius = UDim.new(0, 5)
-UICorner_39.Parent = Null_9
+UICorner_38.CornerRadius = UDim.new(0, 5)
+UICorner_38.Parent = Null_9
 
 UI_PNG_5.Name = "UI_PNG"
 UI_PNG_5.Parent = Null_9
@@ -1365,7 +1354,7 @@ Titulo_6.TextSize = 14.000
 Titulo_6.TextWrapped = true
 Titulo_6.TextXAlignment = Enum.TextXAlignment.Left
 
-UICorner_40.Parent = AutoTeleport
+UICorner_39.Parent = AutoTeleport
 
 DeleyLoopAUTOTELEPORT.Name = "DeleyLoopAUTOTELEPORT"
 DeleyLoopAUTOTELEPORT.Parent = Fundo_Pos
@@ -1382,8 +1371,8 @@ DeleyLoopAUTOTELEPORT.Text = ""
 DeleyLoopAUTOTELEPORT.TextColor3 = Color3.fromRGB(85, 255, 255)
 DeleyLoopAUTOTELEPORT.TextSize = 14.000
 
-UICorner_41.CornerRadius = UDim.new(0, 888888888)
-UICorner_41.Parent = DeleyLoopAUTOTELEPORT
+UICorner_40.CornerRadius = UDim.new(0, 888888888)
+UICorner_40.Parent = DeleyLoopAUTOTELEPORT
 
 GerarPos2.Name = "GerarPos2"
 GerarPos2.Parent = Fundo_Pos
@@ -1398,8 +1387,8 @@ GerarPos2.Text = ""
 GerarPos2.TextColor3 = Color3.fromRGB(0, 0, 0)
 GerarPos2.TextSize = 14.000
 
-UICorner_42.CornerRadius = UDim.new(0, 4)
-UICorner_42.Parent = GerarPos2
+UICorner_41.CornerRadius = UDim.new(0, 4)
+UICorner_41.Parent = GerarPos2
 
 Titulo_7.Name = "Titulo"
 Titulo_7.Parent = GerarPos2
@@ -1430,8 +1419,8 @@ GerarPos1.TextColor3 = Color3.fromRGB(0, 0, 0)
 GerarPos1.TextSize = 14.000
 GerarPos1.TextWrapped = true
 
-UICorner_43.CornerRadius = UDim.new(0, 4)
-UICorner_43.Parent = GerarPos1
+UICorner_42.CornerRadius = UDim.new(0, 4)
+UICorner_42.Parent = GerarPos1
 
 Titulo_8.Name = "Titulo"
 Titulo_8.Parent = GerarPos1
@@ -1456,7 +1445,7 @@ Linha_2.Position = UDim2.new(0.557681739, 0, 0.159675255, 0)
 Linha_2.Size = UDim2.new(0, 1, 0, 253)
 Linha_2.ZIndex = 3
 
-UICorner_44.Parent = Linha_2
+UICorner_43.Parent = Linha_2
 
 Abas_ConfigMenu.Name = "Abas_ConfigMenu"
 Abas_ConfigMenu.Parent = Categoria
@@ -1502,7 +1491,7 @@ DeletarScripter.Text = ""
 DeletarScripter.TextColor3 = Color3.fromRGB(0, 0, 0)
 DeletarScripter.TextSize = 14.000
 
-UICorner_45.Parent = DeletarScripter
+UICorner_44.Parent = DeletarScripter
 
 Titulo_9.Name = "Titulo"
 Titulo_9.Parent = DeletarScripter
@@ -1539,8 +1528,8 @@ Null_10.Position = UDim2.new(0.768087506, 0, 0.240281418, 0)
 Null_10.Size = UDim2.new(0, 31, 0, 18)
 Null_10.ZIndex = 10
 
-UICorner_46.CornerRadius = UDim.new(0, 5)
-UICorner_46.Parent = Null_10
+UICorner_45.CornerRadius = UDim.new(0, 5)
+UICorner_45.Parent = Null_10
 
 UI_PNG_6.Name = "UI_PNG"
 UI_PNG_6.Parent = Null_10
@@ -1573,7 +1562,7 @@ Titulo_10.TextSize = 14.000
 Titulo_10.TextWrapped = true
 Titulo_10.TextXAlignment = Enum.TextXAlignment.Left
 
-UICorner_47.Parent = Button_MoverMenu
+UICorner_46.Parent = Button_MoverMenu
 
 TextBoxHorario.Name = "TextBoxHorario"
 TextBoxHorario.Parent = Fundo_Menu
@@ -1590,8 +1579,8 @@ TextBoxHorario.Text = ""
 TextBoxHorario.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextBoxHorario.TextSize = 14.000
 
-UICorner_48.CornerRadius = UDim.new(0, 888888888)
-UICorner_48.Parent = TextBoxHorario
+UICorner_47.CornerRadius = UDim.new(0, 888888888)
+UICorner_47.Parent = TextBoxHorario
 
 ModoNoite.Name = "ModoNoite"
 ModoNoite.Parent = Fundo_Menu
@@ -1606,8 +1595,8 @@ ModoNoite.Text = ""
 ModoNoite.TextColor3 = Color3.fromRGB(0, 0, 0)
 ModoNoite.TextSize = 14.000
 
-UICorner_49.CornerRadius = UDim.new(0, 4)
-UICorner_49.Parent = ModoNoite
+UICorner_48.CornerRadius = UDim.new(0, 4)
+UICorner_48.Parent = ModoNoite
 
 Titulo_11.Name = "Titulo"
 Titulo_11.Parent = ModoNoite
@@ -1638,8 +1627,8 @@ ModoDia.TextColor3 = Color3.fromRGB(0, 0, 0)
 ModoDia.TextSize = 14.000
 ModoDia.TextWrapped = true
 
-UICorner_50.CornerRadius = UDim.new(0, 4)
-UICorner_50.Parent = ModoDia
+UICorner_49.CornerRadius = UDim.new(0, 4)
+UICorner_49.Parent = ModoDia
 
 Titulo_12.Name = "Titulo"
 Titulo_12.Parent = ModoDia
@@ -1664,7 +1653,7 @@ DesingMenu.BorderSizePixel = 0
 DesingMenu.Position = UDim2.new(3.93739891, 0, -0.00325434469, 0)
 DesingMenu.Size = UDim2.new(0, 263, 0, 318)
 
-UICorner_51.Parent = DesingMenu
+UICorner_50.Parent = DesingMenu
 
 DreckHub_2.Name = "DreckHub"
 DreckHub_2.Parent = DesingMenu
@@ -1675,8 +1664,8 @@ DreckHub_2.Position = UDim2.new(0.0453907773, 0, 0.0420140438, 0)
 DreckHub_2.Size = UDim2.new(0, 149, 0, 32)
 DreckHub_2.ZIndex = 5
 
-UICorner_52.CornerRadius = UDim.new(0, 4)
-UICorner_52.Parent = DreckHub_2
+UICorner_51.CornerRadius = UDim.new(0, 4)
+UICorner_51.Parent = DreckHub_2
 
 txt_10.Name = "txt"
 txt_10.Parent = DreckHub_2
@@ -1703,8 +1692,8 @@ Versao.Position = UDim2.new(0.557138741, 0, 0.145591259, 0)
 Versao.Size = UDim2.new(0, 56, 0, 21)
 Versao.ZIndex = 6
 
-UICorner_53.CornerRadius = UDim.new(0, 3)
-UICorner_53.Parent = Versao
+UICorner_52.CornerRadius = UDim.new(0, 3)
+UICorner_52.Parent = Versao
 
 txt_11.Name = "txt"
 txt_11.Parent = Versao
@@ -1733,9 +1722,9 @@ Png.ImageColor3 = Color3.fromRGB(255, 64, 67)
 Png.ImageRectOffset = Vector2.new(524, 444)
 Png.ImageRectSize = Vector2.new(36, 36)
 
-UICorner_54.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(127, 127, 127))}
-UICorner_54.Name = "UICorner"
-UICorner_54.Parent = Png
+UICorner_53.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(127, 127, 127))}
+UICorner_53.Name = "UICorner"
+UICorner_53.Parent = Png
 
 Funcao.Name = "Funcao"
 Funcao.Parent = DesingMenu
@@ -1746,8 +1735,8 @@ Funcao.Position = UDim2.new(0.0832512602, 0, 0.217507511, 0)
 Funcao.Size = UDim2.new(0, 61, 0, 21)
 Funcao.ZIndex = 9
 
-UICorner_55.CornerRadius = UDim.new(0, 3)
-UICorner_55.Parent = Funcao
+UICorner_54.CornerRadius = UDim.new(0, 3)
+UICorner_54.Parent = Funcao
 
 txt_12.Name = "txt"
 txt_12.Parent = Funcao
@@ -1774,7 +1763,7 @@ Desing_Fundo.Position = UDim2.new(0.0487795062, 0, 0.186553478, 0)
 Desing_Fundo.Size = UDim2.new(0, 236, 0, 234)
 Desing_Fundo.ZIndex = 5
 
-UICorner_56.Parent = Desing_Fundo
+UICorner_55.Parent = Desing_Fundo
 
 Logo.Name = "Logo"
 Logo.Parent = DreckHub
@@ -1791,11 +1780,11 @@ Logo.TextScaled = true
 Logo.TextSize = 14.000
 Logo.TextWrapped = true
 
-UICorner_57.Parent = Logo
+UICorner_56.Parent = Logo
 
 -- Scripts:
 
-local function NBPJ_fake_script() -- DreckHub.Config 
+local function XJPYKAH_fake_script() -- DreckHub.Config 
 	local script = Instance.new('LocalScript', DreckHub)
 
 	local Butao_abas_List = script.Parent.Abas.AbasList
@@ -2237,4 +2226,4 @@ local function NBPJ_fake_script() -- DreckHub.Config
 	
 	
 end
-coroutine.wrap(NBPJ_fake_script)()
+coroutine.wrap(XJPYKAH_fake_script)()
