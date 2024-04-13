@@ -332,7 +332,7 @@ Menu.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 Menu.BackgroundTransparency = 0.100
 Menu.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Menu.BorderSizePixel = 0
-Menu.Position = UDim2.new(-0.0323033817, 0, -0.00325434469, 0)
+Menu.Position = UDim2.new(-0.015062266, 0, -0.00325434469, 0)
 Menu.Size = UDim2.new(0, 492, 0, 318)
 
 atual.Name = "atual"
@@ -859,13 +859,15 @@ Button.Parent = Modificacao_jogador_2
 Button.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
 Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Button.BorderSizePixel = 0
-Button.Position = UDim2.new(0.203056768, 0, 0, 0)
-Button.Size = UDim2.new(0, 175, 0, 36)
-Button.ZIndex = 7
+Button.Position = UDim2.new(0.0327510908, 0, 0, 0)
+Button.Size = UDim2.new(0, 197, 0, 36)
+Button.Visible = false
+Button.ZIndex = 6
 Button.Font = Enum.Font.SourceSans
 Button.Text = ""
 Button.TextColor3 = Color3.fromRGB(255, 255, 255)
 Button.TextSize = 14.000
+Button.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 
 UICorner_22.Parent = Button
 
@@ -971,8 +973,8 @@ Button_2.Parent = Exploit_jogador_2
 Button_2.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
 Button_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Button_2.BorderSizePixel = 0
-Button_2.Position = UDim2.new(0.203056768, 0, 0, 0)
-Button_2.Size = UDim2.new(0, 175, 0, 36)
+Button_2.Size = UDim2.new(0, 214, 0, 36)
+Button_2.Visible = false
 Button_2.ZIndex = 7
 Button_2.Font = Enum.Font.SourceSans
 Button_2.Text = ""
@@ -1800,7 +1802,7 @@ UICorner_57.Parent = Logo
 
 -- Scripts:
 
-local function YLJANX_fake_script() -- DreckHub.Config 
+local function GUHNMW_fake_script() -- DreckHub.Config 
 	local script = Instance.new('LocalScript', DreckHub)
 
 	local Butao_abas_List = script.Parent.Abas.AbasList
@@ -2242,4 +2244,4 @@ local function YLJANX_fake_script() -- DreckHub.Config
 	
 	
 end
-coroutine.wrap(YLJANX_fake_script)()
+coroutine.wrap(GUHNMW_fake_script)()
